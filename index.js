@@ -19,7 +19,7 @@ module.exports = function (arr, divideBy) {
 	var count = Math.ceil(arr.length / divideBy)
 
 	for (var i = 0; i < count; i++) {
-		res[i] = arr.slice(i * divideBy, i * divideBy + divideBy)
+		res[i] = arr.slice(i * divideBy, (i + 1) * divideBy)
 	}
 
 	return res

@@ -1,6 +1,6 @@
 {
   "name": "array-cutter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Make an equal division to an array.",
   "license": "MIT",
   "repository": "egoist/array-cutter",
