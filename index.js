@@ -11,7 +11,7 @@ module.exports = function (arr, divideBy) {
 		throw new TypeError('Expected to be divided by a number')
 	}
 
-	if (arr.length < 6) {
+	if (arr.length <= divideBy) {
 		return [arr]
 	}
 
