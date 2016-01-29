@@ -1,0 +1,33 @@
+{
+  "name": "array-cutter",
+  "version": "0.0.1",
+  "description": "Make an equal division to an array.",
+  "license": "MIT",
+  "repository": "egoist/array-cutter",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "array",
+    "divide"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.10.0",
+    "xo": "^0.12.1"
+  },
+  "xo": {
+    "semicolon": false
+  }
+}
